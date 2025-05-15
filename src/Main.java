@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Hur många dinosaurier ska du recensera?");
         int antal = 0;
         
-        // Inputvalidering: endast positiva heltal godkänns
+        // endast positiva heltal godkänns
         while(true) {
             if (scanner.hasNextInt()) {
                 antal = scanner.nextInt();
